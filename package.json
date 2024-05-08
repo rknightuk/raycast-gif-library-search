@@ -3,7 +3,7 @@
   "name": "gif-library-search",
   "title": "Gif Library Search",
   "description": "Search for gifs in a directory and copy them to the clipboard",
-  "icon": "icon.png",
+  "icon": "gif-icon.png",
   "author": "rknightuk",
   "categories": [
     "Communication",

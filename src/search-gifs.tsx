@@ -66,8 +66,7 @@ export default function Command() {
         </Grid.Dropdown>
       }
     >
-      {state.gifs.length &&
-        state.gifs.map((gif: string) => (
+      {state.gifs.map((gif: string) => (
           <Grid.Item
             key={gif}
             content={gif}
@@ -75,6 +74,7 @@ export default function Command() {
             actions={
               <ActionPanel>
                 <Action title="Copy to Clipboard" onAction={() => copyGifToClipboard(gif)} />
+                <Action.ShowInFinder title="Show in Finder" path={gif} />
               </ActionPanel>
             }
           />
